@@ -1,5 +1,5 @@
 let boxes = document.querySelectorAll(".box");
-let resetButton = document.querySelectorAll("#resetButton");
+let resetButton = document.querySelector("#resetButton");
 
 let turn0 = true;
 
@@ -11,14 +11,12 @@ const winPatterns = [
     [2,5,8],
     [2,4,6],
     [3,4,5],
-    [6,7,8]
+    [6,7,8],
 ];
 
-boxes.forEach(box) => {
+boxes.forEach((box) => {
     box.addEventListener("click", () => {
         console.log("box was clicked");
-        box.innerText = "clicked";
-        
+        box.innerText ="abcd";
     });
-};
-
+});
