@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: cornflowerblue;
+    background-color: rgb(37, 101, 220);
     text-align: center;
 }
 
@@ -33,6 +33,7 @@ body {
     box-shadow: 0 0 1rem rgba(0,0,0,0.5);
     font-size: 8vmin;
     color: #b0413e;
+    background-color: white;
 }
 
 #resetButton{
